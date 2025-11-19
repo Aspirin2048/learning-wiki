@@ -5,9 +5,6 @@ hero:
   name: "Earendel"
   text: "Knowledge Base"
   tagline: "Documentation, Thoughts, and Archive."
-  image:
-    src: /hero-image.png
-    alt: Hero Image
   actions:
     - theme: brand
       text: Explore Areas
