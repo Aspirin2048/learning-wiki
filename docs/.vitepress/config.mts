@@ -50,9 +50,17 @@ export default defineConfig({
       ]
     },
 
+    // 在 sidebar 下方添加 footer
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2025 Earendel'
+    },
+
+
     // 社交链接（如不需要可直接删除此字段）
     socialLinks: [
       { icon: 'github', link: 'https://github.com/your-github-id' } // 请自行决定是否保留
     ]
+    
   }
 })
