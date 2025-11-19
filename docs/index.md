@@ -1,27 +1,26 @@
 ---
-# 布局模式：主页
 layout: home
 
 hero:
-  name: "王之宝库"
-  text: "构建我的数字第二大脑"
-  tagline: "不只是收藏，更是内化。整理繁琐资料，构建知识体系。"
+  name: "Earendel"
+  text: "Knowledge Base"
+  tagline: "Documentation, Thoughts, and Archive."
   actions:
     - theme: brand
-      text: 🚀哪怕只是一步
-      link: /projects/
+      text: Explore Areas
+      link: /areas/python-notes
     - theme: alt
-      text: 📖 查阅知识典籍
-      link: /areas/
+      text: View Projects
+      link: /projects/todo
 
 features:
-  - title: 🏰 Areas · 核心领地
-    details: 长期关注的领域与技能树。编程语言、算法逻辑、系统设计...这是我的力量之源。
-    link: /areas/
-  - title: ⚔️ Projects · 当前战役
-    details: 正在进行中的攻坚任务。有明确的目标和截止日期，集中火力，逐个击破。
-    link: /projects/
-  - title: 🧰 Resources · 武器库
-    details: 各种好用的工具、书签、代码片段和参考资料。工欲善其事，必先利其器。
-    link: /resources/
+  - title: Areas
+    details: 核心知识体系与长期关注领域。
+    link: /areas/python-notes
+  - title: Projects
+    details: 当前正在进行的工程与任务。
+    link: /projects/todo
+  - title: Resources
+    details: 工具、参考资料与归档。
+    link: /resources/tools
 ---

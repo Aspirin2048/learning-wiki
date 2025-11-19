@@ -1,63 +1,58 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "王之宝库",
-  description: "Aspirin的个人知识库",
-  
-  // 这里是主题配置
+  // 网站元数据
+  title: "Earendel", 
+  description: "Personal Knowledge Base", // 建议使用英文或通用描述，避免暴露个人身份
+
   themeConfig: {
-    // 1. 顶部导航栏 (右上角)
+    // 左上角网站标识
+    siteTitle: 'Earendel',
+
+    // 顶部导航栏配置
     nav: [
-      { text: '首页', link: '/' },
-      { text: '🏰 核心领地', link: '/areas/python-notes' }, // 暂时指向具体文件，后续改
-      { text: '⚔️ 当前战役', link: '/projects/todo' },
-      { text: '🧰 武器库', link: '/resources/tools' },
+      { text: 'Home', link: '/' },
+      { text: 'Areas', link: '/areas/python-notes', activeMatch: '/areas/' },
+      { text: 'Projects', link: '/projects/todo', activeMatch: '/projects/' },
+      { text: 'Resources', link: '/resources/tools', activeMatch: '/resources/' },
     ],
 
-    // 2. 侧边栏 (左侧目录，支持多模块)
+    // 侧边栏配置
     sidebar: {
-      // 当用户在 "areas" 目录下时，显示这个侧边栏
       '/areas/': [
         {
-          text: '编程语言',
+          text: 'Areas',
           items: [
-            { text: 'Python 笔记', link: '/areas/python-notes' },
-            { text: 'JavaScript 核心', link: '/areas/js-core' }
-          ]
-        },
-        {
-          text: '计算机基础',
-          items: [
-            { text: '网络协议', link: '/areas/network' }
+            { text: 'Python Notes', link: '/areas/python-notes' },
+            { text: 'JavaScript Core', link: '/areas/js-core' },
+            { text: 'Network Protocols', link: '/areas/network' }
           ]
         }
       ],
 
-      // 当用户在 "projects" 目录下时，显示这个侧边栏
       '/projects/': [
         {
-          text: '2025 年度计划',
+          text: 'Projects',
           items: [
-            { text: '待办清单', link: '/projects/todo' },
-            { text: '个人网站搭建', link: '/projects/build-website' }
+            { text: 'Annual Plan', link: '/projects/todo' },
+            { text: 'Website Construction', link: '/projects/build-website' }
           ]
         }
       ],
       
-      // 资源库
       '/resources/': [
         {
-          text: '常用工具',
+          text: 'Resources',
           items: [
-            { text: '效率软件推荐', link: '/resources/tools' }
+            { text: 'Tools', link: '/resources/tools' }
           ]
         }
       ]
     },
 
-    // 社交链接 (右上角图标)
+    // 社交链接（如不需要可直接删除此字段）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Aspirin2048' }
+      { icon: 'github', link: 'https://github.com/your-github-id' } // 请自行决定是否保留
     ]
   }
 })
