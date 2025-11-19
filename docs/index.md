@@ -1,25 +1,27 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# 布局模式：主页
 layout: home
 
 hero:
   name: "王之宝库"
-  text: "goodgoodstudy"
-  tagline: My great project tagline
+  text: "构建我的数字第二大脑"
+  tagline: "不只是收藏，更是内化。整理繁琐资料，构建知识体系。"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 🚀哪怕只是一步
+      link: /projects/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 📖 查阅知识典籍
+      link: /areas/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🏰 Areas · 核心领地
+    details: 长期关注的领域与技能树。编程语言、算法逻辑、系统设计...这是我的力量之源。
+    link: /areas/
+  - title: ⚔️ Projects · 当前战役
+    details: 正在进行中的攻坚任务。有明确的目标和截止日期，集中火力，逐个击破。
+    link: /projects/
+  - title: 🧰 Resources · 武器库
+    details: 各种好用的工具、书签、代码片段和参考资料。工欲善其事，必先利其器。
+    link: /resources/
 ---
-
