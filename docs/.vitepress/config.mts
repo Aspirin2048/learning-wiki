@@ -12,7 +12,7 @@ export default defineConfig({
     // 顶部导航栏配置
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Areas', link: '/areas/FZTH', activeMatch: '/areas/' },
+      { text: 'Areas', link: '/areas/FZTH/outline.md', activeMatch: '/areas/' },
       { text: 'Projects', link: '/projects/todo', activeMatch: '/projects/' },
       { text: 'Resources', link: '/resources/tools', activeMatch: '/resources/' },
     ],
